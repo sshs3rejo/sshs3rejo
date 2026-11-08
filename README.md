@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação · ADS UniFacema · Caxias–MA · aberto a projetos" width="100%">
+  <img src="assets/banner.svg" alt="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação · ADS UniFacema · Caxias–MA" width="100%">
 </p>
 
 Estou aprendendo desenvolvimento web construindo projetos reais — sites, sistemas e automações. O código está abaixo, com demo quando o projeto está no ar.
