@@ -26,7 +26,7 @@ jobs:
           games: 'pacman'
           hide_month_labels: 'true'
 
-      - name: generate profile stats
+      - name: fill banner with github stats
         env:
           GITHUB_LOGIN: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -41,7 +41,7 @@ jobs:
 
       - name: verify svgs were generated
         run: |
-          for f in output/pacman-contribution-graph.svg output/stats.svg output/stats-dark.svg; do
+          for f in output/pacman-contribution-graph.svg output/banner.svg; do
             test -s "$f" || { echo "::error::$f was not generated"; exit 1; }
             echo "ok: $f ($(wc -c < "$f") bytes)"
           done

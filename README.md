@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação · ADS UniFacema · Caxias–MA" width="100%">
+  <img src="output/banner.svg" alt="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação · ADS UniFacema · Caxias–MA, com repositórios, seguidores e contribuições atualizados diariamente" width="100%">
 </p>
 
 Estou aprendendo desenvolvimento web construindo projetos reais — sites, sistemas e automações.
@@ -65,20 +65,10 @@ Next.js 16 · Prisma 7 · PostgreSQL
   </picture>
 </p>
 
-## GitHub
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/stats.svg">
-    <img alt="Estatísticas de sshs3rejo no GitHub" src="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/stats.svg" width="100%">
-  </picture>
-</p>
-
 ## Estudando agora
 
 **Cibersegurança** — fundamentos. Próximo passo depois de fechar os projetos em aberto.
 
 ## Como este perfil funciona
 
-O gráfico de contribuições é gerado por GitHub Actions todo dia à meia-noite, e o SVG fica versionado neste repositório — não depende de serviço externo no ar.
+O banner e o gráfico de contribuições são gerados por GitHub Actions todo dia à meia-noite. Os números do fastfetch — repositórios, seguidores e contribuições — vêm da API do GitHub no momento da geração, e o SVG resultante fica versionado neste repositório. Nenhuma imagem do perfil depende de um serviço de terceiros no ar.

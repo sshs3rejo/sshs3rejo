@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" fill="none" role="img" aria-label="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação, ADS UniFacema, Caxias–MA">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-label="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação, ADS UniFacema, Caxias–MA">
   <defs>
-    <clipPath id="cardClip"><rect width="1200" height="280" rx="20"/></clipPath>
+    <clipPath id="cardClip"><rect width="1200" height="400" rx="20"/></clipPath>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0D1117"/>
       <stop offset="1" stop-color="#161B22"/>
@@ -43,6 +43,12 @@
       <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
     <text x="332" y="262" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Aberto a issues e PRs</text>
+    <text x="250" y="286" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Repos</text>
+    <text x="318" y="286" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">{{PUBLIC_REPOS}} · {{FOLLOWERS}} seguidores</text>
+    <text x="250" y="310" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Commit</text>
+    <text x="318" y="310" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">{{CONTRIBUTIONS}} contribuições no último ano</text>
+    <text x="250" y="342" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17">atualizado em {{UPDATED_AT}}</text>
+
   </g>
   <rect x="0.75" y="0.75" width="1198.5" height="278.5" rx="19.25" stroke="#30363D" stroke-width="1.5"/>
 </svg>
