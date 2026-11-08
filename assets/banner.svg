@@ -15,8 +15,8 @@
     <rect width="1200" height="280" fill="url(#bg)"/>
     <rect width="1200" height="280" fill="url(#glow)"/>
 
-    <text x="40" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" textLength="200" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#58A6FF">felipe</tspan><tspan fill="#E6EDF3">@serejo</tspan><tspan fill="#8B949E">:~$ </tspan><tspan fill="#E6EDF3">fastfetch</tspan></text>
-    <rect x="252" y="33" width="8" height="16" fill="#58A6FF">
+    <text x="40" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" textLength="244" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#58A6FF">sshs3rejo</tspan><tspan fill="#E6EDF3">@github</tspan><tspan fill="#8B949E">:~$ </tspan><tspan fill="#E6EDF3">fastfetch</tspan></text>
+    <rect x="292" y="33" width="8" height="16" fill="#58A6FF">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
     </rect>
 
