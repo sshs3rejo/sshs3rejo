@@ -27,6 +27,8 @@ Site institucional, painel administrativo e gestão de pedidos. **39 migrations,
 
 Sistema para organizar aulas, trabalhos e provas, com dashboard, CRUD completo, calendário acadêmico e gerador de capa ABNT. · [Demo no ar](https://sistema-de-organizacao-estudantil.vercel.app/)
 
+*MVP — Certificação Intermediária em Programação Front-End — UniFacema (2026)*
+
 ### <img src="assets/icon-farmacia.svg" width="26" height="26" alt=""> [Farmácia Bem-Estar](https://github.com/felipeserejo/farmacia-bem-estar)
 
 API REST com interface web para cadastro e gerenciamento de farmácia: **10 tabelas, CRUD completo, registro de vendas e documentação MER/DER**.
