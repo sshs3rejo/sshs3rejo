@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" fill="none" role="img" aria-label="Banner cybercore de Felipe G. S. de Andrade com animação ASCII">
+  <defs>
+    <clipPath id="win"><rect x="40" y="40" width="1120" height="380" rx="16"/></clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0E2A1E" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#00FF9C" opacity="0.05"/>
+    </pattern>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(460)">
+      <stop stop-color="#00FF9C" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#00FF9C" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="460" fill="#05070A"/>
+  <rect width="1200" height="460" fill="url(#grid)"/>
+  <rect width="1200" height="460" fill="url(#glow)"/>
+
+  <g clip-path="url(#win)">
+    <rect x="40" y="40" width="1120" height="380" fill="#0A0F14"/>
+    <rect x="40" y="40" width="1120" height="48" fill="#0F1A14"/>
+    <circle cx="68" cy="64" r="6" fill="#FF2E88"/>
+    <circle cx="88" cy="64" r="6" fill="#FFB000"/>
+    <circle cx="108" cy="64" r="6" fill="#00FF9C"/>
+    <text x="136" y="70" fill="#7AFFC4" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="15">sshs3rejo@archlinux: ~/portfolio</text>
+  </g>
+  <rect x="40.75" y="40.75" width="1118.5" height="378.5" rx="15.25" stroke="#00FF9C" stroke-opacity="0.5" stroke-width="1.5"/>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="17" font-weight="700" xml:space="preserve">
+    <g fill="#00E5FF" opacity="0.4" transform="translate(2,0)">
+      <animate attributeName="opacity" values="0;0.45;0;0.15;0" dur="3.6s" repeatCount="indefinite"/>
+      <text x="80" y="150">███████ ███████ ██      ██ ██████  ███████</text>
+      <text x="80" y="176">██      ██      ██      ██ ██   ██ ██     </text>
+      <text x="80" y="202">█████   █████   ██      ██ ██████  █████  </text>
+      <text x="80" y="228">██      ██      ██      ██ ██      ██     </text>
+      <text x="80" y="254">██      ███████ ███████ ██ ██      ███████</text>
+    </g>
+    <g fill="#FF2E88" opacity="0.4" transform="translate(-2,0)">
+      <animate attributeName="opacity" values="0;0.2;0;0.45;0" dur="4.3s" repeatCount="indefinite"/>
+      <text x="80" y="150">███████ ███████ ██      ██ ██████  ███████</text>
+      <text x="80" y="176">██      ██      ██      ██ ██   ██ ██     </text>
+      <text x="80" y="202">█████   █████   ██      ██ ██████  █████  </text>
+      <text x="80" y="228">██      ██      ██      ██ ██      ██     </text>
+      <text x="80" y="254">██      ███████ ███████ ██ ██      ███████</text>
+    </g>
+    <g fill="#00FF9C" filter="url(#neon)">
+      <text x="80" y="150">███████ ███████ ██      ██ ██████  ███████</text>
+      <text x="80" y="176">██      ██      ██      ██ ██   ██ ██     </text>
+      <text x="80" y="202">█████   █████   ██      ██ ██████  █████  </text>
+      <text x="80" y="228">██      ██      ██      ██ ██      ██     </text>
+      <text x="80" y="254">██      ███████ ███████ ██ ██      ███████</text>
+    </g>
+  </g>
+
+  <line x1="530" y1="112" x2="530" y2="252" stroke="#00FF9C" stroke-opacity="0.22"/>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="14">
+    <circle cx="555" cy="128" r="4" fill="#00FF9C">
+      <animate attributeName="opacity" values="1;1;0.2;0.2" keyTimes="0;0.5;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="572" y="133" fill="#00FF9C">[ ONLINE ]</text>
+    <text x="700" y="133" fill="#E6E1E5">aberto a projetos</text>
+    <text x="555" y="161" fill="#7AFFC4">[ ROLE ]</text>
+    <text x="700" y="161" fill="#E6E1E5">desenvolvedor web</text>
+    <text x="555" y="189" fill="#7AFFC4">[ FOCUS ]</text>
+    <text x="700" y="189" fill="#E6E1E5">sites · sistemas · automação</text>
+    <text x="555" y="217" fill="#7AFFC4">[ SYS ]</text>
+    <text x="700" y="217" fill="#E6E1E5">arch linux · hyprland</text>
+    <text x="555" y="245" fill="#7AFFC4">[ LOC ]</text>
+    <text x="700" y="245" fill="#E6E1E5">caxias–ma · brasil</text>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="16">
+    <text x="80" y="300" fill="#00FF9C">$ <tspan fill="#E6E1E5">whoami</tspan></text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.25s" fill="freeze"/>
+      <text x="80" y="330" fill="#E6E1E5">felipe — desenvolvedor web em formação</text>
+    </g>
+    <rect x="440" y="316" width="9" height="17" fill="#00FF9C">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.25s" fill="freeze"/>
+      <text x="80" y="370" fill="#00FF9C">$ <tspan fill="#E6E1E5">./status</tspan></text>
+      <text x="200" y="370" fill="#7AFFC4">→ aberto a projetos · caxias–ma</text>
+    </g>
+  </g>
+
+  <rect width="1200" height="460" fill="url(#scan)" opacity="0.6"/>
+  <g clip-path="url(#win)">
+    <rect x="40" y="-80" width="1120" height="60" fill="#00FF9C" opacity="0.04">
+      <animate attributeName="y" from="-80" to="460" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
