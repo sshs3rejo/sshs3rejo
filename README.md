@@ -2,7 +2,9 @@
   <img src="assets/banner.svg" alt="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação · ADS UniFacema · Caxias–MA" width="100%">
 </p>
 
-Estou aprendendo desenvolvimento web construindo projetos reais — sites, sistemas e automações. O código está abaixo, com demo quando o projeto está no ar.
+Estou aprendendo desenvolvimento web construindo projetos reais — sites, sistemas e automações.
+
+Trabalho em duas frentes: sistemas completos de ponta a ponta e ferramentas que resolvem um problema meu do dia a dia.
 
 ## Stack
 
@@ -17,33 +19,41 @@ Estou aprendendo desenvolvimento web construindo projetos reais — sites, siste
 
 ## Projetos
 
-### <img src="assets/icon-associacao.svg" width="26" height="26" alt=""> [Associação de Artesãos de Caxias](https://github.com/sshs3rejo/Associacao-de-Artesaos-de-Caxias)
+### Sistemas completos
 
-Site institucional, painel administrativo e gestão de pedidos. **39 migrations, 21 controllers, 19 models e mais de 75 views** em Laravel 12 + PostgreSQL. · [Landing page no ar](https://sshs3rejo.github.io/artesanato-landing-page/)
+Sistemas de ponta a ponta — banco modelado, regras de negócio, interface.
 
-*Projeto Integrador Extensionista — UniFacema*
+#### <img src="assets/icon-associacao.svg" width="26" height="26" alt=""> [Associação de Artesãos de Caxias](https://github.com/sshs3rejo/Associacao-de-Artesaos-de-Caxias)
 
-### <img src="assets/icon-organizacao.svg" width="26" height="26" alt=""> [Organização Estudantil](https://github.com/sshs3rejo/Sistema_de_Organizacao_Estudantil)
+Site institucional, painel administrativo e gestão de pedidos para uma associação real de artesãos. **39 migrations, 21 controllers, 19 models e mais de 75 views** em Laravel 12 + PostgreSQL.
 
-Sistema para organizar aulas, trabalhos e provas, com dashboard, CRUD completo, calendário acadêmico e gerador de capa ABNT. · [Demo no ar](https://sistema-de-organizacao-estudantil.vercel.app/)
+[Landing page no ar](https://sshs3rejo.github.io/artesanato-landing-page/) · Projeto Integrador Extensionista, UniFacema
 
-*MVP — Certificação Intermediária em Programação Front-End — UniFacema (2026)*
+#### <img src="assets/icon-organizacao.svg" width="26" height="26" alt=""> [Organização Estudantil](https://github.com/sshs3rejo/Sistema_de_Organizacao_Estudantil)
 
-### <img src="assets/icon-farmacia.svg" width="26" height="26" alt=""> [Farmácia Bem-Estar](https://github.com/sshs3rejo/farmacia-bem-estar)
+Agenda acadêmica com dashboard, CRUD completo, calendário de aulas, trabalhos e provas — e gerador de capa ABNT para entrega dos trabalhos.
 
-API REST com interface web para cadastro e gerenciamento de farmácia: **10 tabelas, CRUD completo, registro de vendas e documentação MER/DER**.
+**[Abrir o sistema no ar](https://sistema-de-organizacao-estudantil.vercel.app/)** · MVP, UniFacema (2026)
 
-*TDE — Programação em Banco de Dados — UniFacema*
+#### <img src="assets/icon-farmacia.svg" width="26" height="26" alt=""> [Farmácia Bem-Estar](https://github.com/sshs3rejo/farmacia-bem-estar)
 
-### <img src="assets/icon-reservas.svg" width="26" height="26" alt=""> [Sistema de Reservas](https://github.com/sshs3rejo/sistema-reservas-restaurante)
+Gestão de farmácia em Node.js + Express + MySQL: **10 tabelas**, CRUD completo, registro de vendas e documentação MER/DER.
 
-Reserva de mesas para restaurantes, com **modelagem orientada a objetos** e persistência em SQLite.
+Estoque controlado **por lote com validade**, não por contador único — o que é obrigação sanitária de farmácia e foi a decisão de modelagem mais importante do projeto.
 
-*TDE — Análise e Projeto Orientado a Objetos — UniFacema*
+#### <img src="assets/icon-reservas.svg" width="26" height="26" alt=""> [Sistema de Reservas](https://github.com/sshs3rejo/sistema-reservas-restaurante)
 
-### <img src="assets/icon-backup.svg" width="26" height="26" alt=""> [Backup Orchestrator](https://github.com/sshs3rejo/backup-orchestrator)
+Reservas de mesa para restaurantes em C# (.NET 8): herança, classe abstrata, interface e persistência em SQLite, com diagramas de classe e caso de uso versionados em Mermaid.
 
-Orquestrador full-stack para **automação e sincronização de backups** de bancos de dados self-hosted e cloud no Google Drive.
+### Ferramentas
+
+Projetos que resolvem um problema concreto do meu ambiente.
+
+#### <img src="assets/icon-backup.svg" width="26" height="26" alt=""> [Backup Orchestrator](https://github.com/sshs3rejo/backup-orchestrator)
+
+Painel para orquestrar backups de bancos self-hosted e cloud no Google Drive via rclone. Cadastro de bancos e destinos, agendamento, histórico de execuções com status e tamanho — no lugar de um `pg_dump` esquecido no crontab.
+
+Next.js 16 · Prisma 7 · PostgreSQL
 
 ## Contribuições
 
@@ -64,8 +74,10 @@ Orquestrador full-stack para **automação e sincronização de backups** de ban
   </picture>
 </p>
 
-## Aprendendo agora
+## Estudando agora
 
-- [x] **Next.js e SQL** — aplicados no projeto Organização Estudantil
-- [x] **Linux e automação** — scripts de backup e rotina
-- [ ] **Cibersegurança** — estudando fundamentos
+**Cibersegurança** — fundamentos. Próximo passo depois de fechar os projetos em aberto.
+
+## Como este perfil funciona
+
+O gráfico de contribuições é gerado por GitHub Actions todo dia à meia-noite, e o SVG fica versionado neste repositório — não depende de serviço externo no ar.
