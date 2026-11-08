@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-label="Terminal fastfetch de sshs3rejo — desenvolvedor web em formação, ADS UniFacema, Caxias–MA">
   <defs>
     <clipPath id="cardClip"><rect width="1200" height="400" rx="20"/></clipPath>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0D1117"/>
       <stop offset="1" stop-color="#161B22"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1140 10) rotate(90) scale(380)">
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1140 10) rotate(90) scale(500)">
       <stop stop-color="#58A6FF" stop-opacity="0.10"/>
       <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <g clip-path="url(#cardClip)">
-    <rect width="1200" height="280" fill="url(#bg)"/>
-    <rect width="1200" height="280" fill="url(#glow)"/>
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#glow)"/>
 
     <text x="40" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" xml:space="preserve"><tspan fill="#58A6FF">sshs3rejo</tspan><tspan fill="#E6EDF3">@github</tspan><tspan fill="#8B949E">:~$ </tspan><tspan fill="#E6EDF3">fastfetch</tspan></text>
     <rect x="350" y="34" width="8" height="16" fill="#58A6FF">
@@ -28,27 +28,27 @@
     <text x="250" y="124" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">────────────────</text>
 
     <text x="250" y="146" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Role</text>
-    <text x="318" y="146" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Desenvolvedor web em formação</text>
+    <text x="330" y="146" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Desenvolvedor web em formação</text>
     <text x="250" y="170" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Study</text>
-    <text x="318" y="170" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">ADS · UniFacema</text>
+    <text x="330" y="170" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">ADS · UniFacema</text>
     <text x="250" y="194" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Stack</text>
-    <text x="318" y="194" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">TypeScript · Next.js · Laravel · .NET</text>
+    <text x="330" y="194" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">TypeScript · Next.js · Laravel · .NET</text>
     <text x="250" y="218" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">OS</text>
-    <text x="318" y="218" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Arch Linux · Hyprland</text>
+    <text x="330" y="218" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Arch Linux · Hyprland</text>
     <text x="250" y="242" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">LOC</text>
-    <text x="318" y="242" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Caxias–MA · Brasil</text>
+    <text x="330" y="242" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Caxias–MA · Brasil</text>
 
     <text x="250" y="262" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Status</text>
     <circle cx="322" cy="254" r="4" fill="#3FB950">
       <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="332" y="262" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Aberto a issues e PRs</text>
-    <text x="250" y="286" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Repos</text>
-    <text x="318" y="286" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">{{PUBLIC_REPOS}} · {{FOLLOWERS}} seguidores</text>
-    <text x="250" y="310" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Commit</text>
-    <text x="318" y="310" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">{{CONTRIBUTIONS}} contribuições no último ano</text>
-    <text x="250" y="342" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17">atualizado em {{UPDATED_AT}}</text>
+    <text x="330" y="262" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Aberto a issues e PRs</text>
+    <text x="250" y="288" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Repos</text>
+    <text x="330" y="288" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">{{PUBLIC_REPOS}} · {{FOLLOWERS}} seguidores</text>
+    <text x="250" y="312" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">Commit</text>
+    <text x="330" y="312" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">{{CONTRIBUTIONS}} contribuições no último ano</text>
+    <text x="250" y="340" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17">atualizado em {{UPDATED_AT}}</text>
 
   </g>
-  <rect x="0.75" y="0.75" width="1198.5" height="278.5" rx="19.25" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="398.5" rx="19.25" stroke="#30363D" stroke-width="1.5"/>
 </svg>
