@@ -27,7 +27,7 @@ Sistemas de ponta a ponta — banco modelado, regras de negócio, interface.
 
 Site institucional, painel administrativo e gestão de pedidos para uma associação real de artesãos. **39 migrations, 21 controllers, 19 models e mais de 75 views** em Laravel 12 + PostgreSQL.
 
-[Landing page no ar](https://sshs3rejo.github.io/artesanato-landing-page/) · Projeto Integrador Extensionista, UniFacema
+Projeto Integrador Extensionista, UniFacema — a primeira versão foi uma landing page em HTML puro, depois substituída por este sistema
 
 #### <img src="assets/icon-organizacao.svg" width="26" height="26" alt=""> [Organização Estudantil](https://github.com/sshs3rejo/Sistema_de_Organizacao_Estudantil)
 
@@ -69,8 +69,9 @@ Next.js 16 · Prisma 7 · PostgreSQL
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sshs3rejo&theme=default">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sshs3rejo&theme=github_dark" alt="Contribuições de Felipe no GitHub no último ano" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/stats.svg">
+    <img alt="Estatísticas de sshs3rejo no GitHub" src="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/stats.svg" width="100%">
   </picture>
 </p>
 

@@ -26,6 +26,12 @@ jobs:
           games: 'pacman'
           hide_month_labels: 'true'
 
+      - name: generate profile stats
+        env:
+          GITHUB_LOGIN: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_stats.py
+
       - name: locate generated svgs
         run: |
           mkdir -p output
@@ -35,11 +41,10 @@ jobs:
 
       - name: verify svgs were generated
         run: |
-          test -s output/pacman-contribution-graph.svg || {
-            echo "::error::pacman-contribution-graph.svg was not generated"
-            exit 1
-          }
-          echo "svg ok: $(wc -c < output/pacman-contribution-graph.svg) bytes"
+          for f in output/pacman-contribution-graph.svg output/stats.svg output/stats-dark.svg; do
+            test -s "$f" || { echo "::error::$f was not generated"; exit 1; }
+            echo "ok: $f ($(wc -c < "$f") bytes)"
+          done
 
       - name: commit and push
         run: |
