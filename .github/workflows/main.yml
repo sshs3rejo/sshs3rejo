@@ -32,7 +32,15 @@ jobs:
           ls -la
           echo "=== output dir ==="
           ls -la output/ 2>/dev/null || echo "output dir not found"
-          find . -name "*.svg" -type f 2>/dev/null || echo "no svg files found"
+          find . -name "*.svg" -type f 2>/dev/null | head -20 || echo "no svg files found"
+
+      - name: move svgs to output
+        run: |
+          mkdir -p output
+          find . -maxdepth 3 -name "pacman-contribution-graph*.svg" -type f -exec mv {} output/ \; 2>/dev/null || true
+          find . -maxdepth 3 -name "*pacman*.svg" -type f -exec mv {} output/ \; 2>/dev/null || true
+          echo "=== after move ==="
+          ls -la output/
 
       - name: commit and push
         if: always()
