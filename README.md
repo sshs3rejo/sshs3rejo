@@ -1,26 +1,17 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-material-light.svg">
-    <img src="assets/banner-material-dark.svg" alt="Felipe G. S. de Andrade — Desenvolvedor Web" width="100%">
+    <img src="assets/banner-material-dark.svg" alt="Felipe G. S. de Andrade — Desenvolvedor Web · Caxias–MA · ADS UniFacema · Aberto a projetos" width="100%">
   </picture>
 </p>
 
-**Desenvolvedor web em formação.** Construo sites, sistemas e automações que resolvem problemas reais.
-
-Estudante de Análise e Desenvolvimento de Sistemas na UniFacema, em Caxias–MA. Trabalho com desenvolvimento web, automação e Linux. Gosto de transformar problemas do dia a dia em software simples que funciona.
-
-## O que eu faço
-
-- **Sites e landing pages** para pequenos negócios — responsivos, rápidos e fáceis de manter.
-- **Sistemas web** para organização, reservas e fluxos internos.
-- **Automação e scripts** para Linux, backups e rotinas.
-- **Integrações** com APIs, bancos de dados e serviços em nuvem.
+Construo sites, sistemas e automações para pequenos negócios — do site institucional ao painel administrativo.
 
 ## Projetos em destaque
 
 ### <img src="assets/icon-associacao.svg" width="26" height="26" alt=""> [Associação de Artesãos de Caxias](https://github.com/sshs3rejo/Associacao-de-Artesaos-de-Caxias)
 
-Plataforma web completa para a Associação de Artesãos de Caxias: site institucional, painel administrativo e gestão de pedidos. **39 migrations, 21 controllers, 19 models e mais de 75 views** em Laravel 12 + PostgreSQL. · [Landing page no ar](https://sshs3rejo.github.io/artesanato-landing-page/)
+Site institucional, painel administrativo e gestão de pedidos. **39 migrations, 21 controllers, 19 models e mais de 75 views** em Laravel 12 + PostgreSQL. · [Landing page no ar](https://sshs3rejo.github.io/artesanato-landing-page/)
 
 ![PHP](https://img.shields.io/badge/PHP-4A4458?style=flat&logo=php&logoColor=D0BCFF) ![Laravel 12](https://img.shields.io/badge/Laravel%2012-4A4458?style=flat&logo=laravel&logoColor=D0BCFF) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4A4458?style=flat&logo=postgresql&logoColor=D0BCFF) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4A4458?style=flat&logo=tailwindcss&logoColor=D0BCFF)
 
@@ -42,7 +33,7 @@ API REST com interface web para cadastro e gerenciamento de farmácia: **10 tabe
 
 ### <img src="assets/icon-reservas.svg" width="26" height="26" alt=""> [Sistema de Reservas](https://github.com/sshs3rejo/sistema-reservas-restaurante)
 
-Sistema de reservas de mesas para restaurantes, com **modelagem orientada a objetos** e persistência em SQLite.
+Reserva de mesas para restaurantes, com **modelagem orientada a objetos** e persistência em SQLite.
 
 ![C#](https://img.shields.io/badge/C%23-4A4458?style=flat&logo=csharp&logoColor=D0BCFF) ![.NET 8](https://img.shields.io/badge/.NET%208-4A4458?style=flat&logo=dotnet&logoColor=D0BCFF) ![SQLite](https://img.shields.io/badge/SQLite-4A4458?style=flat&logo=sqlite&logoColor=D0BCFF)
 
@@ -54,23 +45,8 @@ Orquestrador full-stack para **automação e sincronização de backups** de ban
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-4A4458?style=flat&logo=typescript&logoColor=D0BCFF) ![Next.js](https://img.shields.io/badge/Next.js-4A4458?style=flat&logo=nextdotjs&logoColor=D0BCFF) ![Prisma](https://img.shields.io/badge/Prisma-4A4458?style=flat&logo=prisma&logoColor=D0BCFF) ![Docker](https://img.shields.io/badge/Docker-4A4458?style=flat&logo=docker&logoColor=D0BCFF)
 
----
-
-## Stack
-
-**Web** · HTML · CSS · JavaScript · TypeScript · React · Next.js · Node.js  
-**Back-end** · PHP · Laravel · Express · C# · .NET  
-**Dados** · PostgreSQL · MySQL · SQLite · Prisma  
-**Ambiente** · Linux · Arch · Shell · Git · Docker
-
 ## Atualmente
 
-- [x] **Next.js e SQL** — aplicados no Organização Estudantil
+- [x] **Next.js e SQL** — aplicados no projeto Organização Estudantil
 - [x] **Automação Linux** — scripts de backup e rotina
 - [ ] **Cibersegurança** — estudando fundamentos
-
-**Aberto a** projetos de sites, sistemas e automação para pequenos negócios.
-
----
-
-<p align="center"><sub>Caxias–MA · Brasil</sub></p>
