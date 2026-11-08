@@ -26,7 +26,16 @@ jobs:
           games: 'pacman'
           hide_month_labels: 'true'
 
+      - name: debug - list files
+        run: |
+          echo "=== root ==="
+          ls -la
+          echo "=== output dir ==="
+          ls -la output/ 2>/dev/null || echo "output dir not found"
+          find . -name "*.svg" -type f 2>/dev/null || echo "no svg files found"
+
       - name: commit and push
+        if: always()
         run: |
           git config --global user.name "Felipe Gabriel Serejo de Andrade"
           git config --global user.email "232819648+sshs3rejo@users.noreply.github.com"
