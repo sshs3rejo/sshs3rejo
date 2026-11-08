@@ -45,6 +45,16 @@ Reserva de mesas para restaurantes, com **modelagem orientada a objetos** e pers
 
 Orquestrador full-stack para **automação e sincronização de backups** de bancos de dados self-hosted e cloud no Google Drive.
 
+## Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/sshs3rejo/sshs3rejo/main/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
+</p>
+
 ## GitHub
 
 <p align="center">
