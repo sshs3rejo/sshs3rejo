@@ -1,8 +1,8 @@
-name: generate pacman contribution graph
+name: update profile assets
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
     branches:
@@ -12,6 +12,9 @@ jobs:
   generate:
     permissions:
       contents: write
+    concurrency:
+      group: profile-assets
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -54,6 +57,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "no changes to commit"
           else
-            git commit -m "chore: atualiza gráfico de contribuições [ci skip]"
+            git commit -m "chore: atualiza assets do perfil [ci skip]"
             git push origin HEAD:main
           fi

@@ -22,10 +22,7 @@ query($login: String!) {
     repositories(privacy: PUBLIC) { totalCount }
     followers { totalCount }
     contributionsCollection {
-      totalCommitContributions
-      totalPullRequestContributions
-      totalIssueContributions
-      restrictedContributionsCount
+      contributionCalendar { totalContributions }
     }
   }
 }
@@ -47,18 +44,12 @@ def fetch(login):
 
 
 def build_values(user):
-    c = user["contributionsCollection"]
-    contributions = (
-        c["totalCommitContributions"]
-        + c["totalPullRequestContributions"]
-        + c["totalIssueContributions"]
-        + c["restrictedContributionsCount"]
-    )
+    contributions = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     return {
         "PUBLIC_REPOS": str(user["repositories"]["totalCount"]),
         "FOLLOWERS": str(user["followers"]["totalCount"]),
         "CONTRIBUTIONS": str(contributions),
-        "UPDATED_AT": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "UPDATED_AT": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
 
 
