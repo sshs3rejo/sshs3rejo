@@ -71,4 +71,4 @@ Next.js 16 · Prisma 7 · PostgreSQL
 
 ## Como este perfil funciona
 
-O banner e o gráfico de contribuições são gerados por GitHub Actions todo dia à meia-noite. Os números do fastfetch — repositórios, seguidores e contribuições — vêm da API do GitHub no momento da geração, e o SVG resultante fica versionado neste repositório. Nenhuma imagem do perfil depende de um serviço de terceiros no ar.
+O banner e o gráfico de contribuições são gerados por GitHub Actions a cada 6 horas. Os números do fastfetch — repositórios, seguidores e contribuições — vêm da API do GitHub no momento da geração, e o SVG resultante fica versionado neste repositório. Nenhuma imagem do perfil depende de um serviço de terceiros no ar.

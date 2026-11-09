@@ -32,7 +32,9 @@ jobs:
       - name: fill banner with github stats
         env:
           GITHUB_LOGIN: ${{ github.repository_owner }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Com o secret PROFILE_STATS_TOKEN (PAT classic com read:user), o banner
+          # inclui as contribuições privadas; sem ele, usa o token padrão (só públicas).
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_stats.py
 
       - name: locate generated svgs

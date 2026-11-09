@@ -19,7 +19,7 @@ QUERY = """
 query($login: String!) {
   user(login: $login) {
     login
-    repositories(privacy: PUBLIC) { totalCount }
+    repositories(privacy: PUBLIC, ownerAffiliations: OWNER) { totalCount }
     followers { totalCount }
     contributionsCollection {
       contributionCalendar { totalContributions }
