@@ -51,6 +51,14 @@ jobs:
             echo "ok: $f ($(wc -c < "$f") bytes)"
           done
 
+      - name: validate banner xml
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          ET.parse("output/banner.svg")
+          print("ok: output/banner.svg is well-formed XML")
+          PY
+
       - name: commit and push
         run: |
           git config --global user.name "Felipe Gabriel Serejo de Andrade"
